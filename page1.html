@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/app.css">
+</head>
+
+<body>
+    <!--* un input et un bouton -->
+    <div class="div-parent ">
+        <div class="row g-3 d-flex justify-content-center mt-4 form-input">
+            <div class="col-auto input">
+                <input type="text" class="form-control" placeholder="text" id="input-text">
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3" id="btn-ajouter">Ajouter</button>
+            </div>
+        </div>
+        <select class="form-select w-50" id="select" aria-label="Default select example">
+            <option selected id="all-select">Les éléments</option>
+            <option value="1" id="select1">Éléments validés</option>
+            <option value="2" id="select2">Éléments non validés</option>
+        </select>
+    </div>
+    <!--* la boite -->
+    <div class="center-div boite bg-light m-4 w-50 p-3 " id="add-div">
+        <!-- <div class="test">
+            <p class="p-text">cfzdcczedezdz</p>
+            <i class="fa-solid fa-check fa-xl valide" style="color: #09ae0c;"></i>
+            <i class="fa-solid fa-xmark fa-xl supprm" style="color: #f01000;"></i>
+            <i class="fa-solid fa-pen fa-lg modif" style="color: #005cfa;"></i>
+        </div> -->
+            
+    </div>
+
+
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./public/js/page1.js"></script>
+</body>
+
+</html>
