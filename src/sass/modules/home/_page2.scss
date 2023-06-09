@@ -1,0 +1,62 @@
+.colonnes{
+    margin-top: 25vh;
+    width: 100%;
+}
+.todo{
+    background-color:white;
+    height: 550px;
+    width: 20%;
+    border: 2px solid rgb(108, 114, 122);
+    border-radius: 2%;
+    // box-shadow:10px 10px 8px rgb(21, 0, 255), 15px 15px 8px rgb(102, 89, 252);
+
+}
+.doing{
+    background-color: white;
+    height: 550px;
+    width: 20%;
+    border: 2px solid rgb(108, 114, 122);
+    border-radius: 2%;
+    // box-shadow: 5px 10px 8px #888888;
+
+}
+.done{
+    background-color: white;
+    height: 550px;
+    width: 20%;
+    border: 2px solid rgb(108, 114, 122);
+    border-radius: 2%;
+    // box-shadow: 5px 10px 8px #888888;
+}
+.test_2{
+    position: relative;
+    width: 90%;
+    height: 10vh;
+    left: 5%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.p-text-2{
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translate(-3%, -50%);
+}
+.supprm-2{
+    position: absolute;
+    left: 65%;
+    top: 50%;
+}
+.modif-2{
+    position: absolute;
+    left: 75%;
+    top: 50%;
+}
+.drop-btn{
+    position: absolute;
+    left: 85%;
+    top: 25%;
+}
+
+

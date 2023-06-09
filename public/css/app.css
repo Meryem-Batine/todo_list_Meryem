@@ -11866,17 +11866,17 @@ textarea.form-control-lg {
 
 .logo {
   text-align: center;
-  background-color: aqua;
+  margin-right: 25%;
 }
 .logo a {
-  background-color: #B02939;
   text-decoration: none;
   color: black;
-  font-size: larger;
+  font-size: 24px;
+  text-decoration-line: underline;
 }
 
 .nav {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 li a {
@@ -11885,7 +11885,8 @@ li a {
 }
 
 li:hover {
-  background-color: #B02939;
+  background-color: #9ac0e2;
+  border-radius: 20PX;
 }
 
 body {
@@ -11911,7 +11912,7 @@ body {
   top: 55%;
   transform: translate(-50%, -50%);
   display: block;
-  border: 2px solid rgb(137, 134, 134);
+  border: 2px solid rgb(108, 114, 122);
   border-radius: 2%;
 }
 
@@ -11926,8 +11927,10 @@ body {
 .test {
   position: relative;
   width: 100%;
-  height: 10vh;
-  border: 2px solid darkblue;
+  height: 8vh;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 .valide {
@@ -11953,6 +11956,70 @@ body {
   left: 3%;
   top: 50%;
   transform: translate(-3%, -50%);
+}
+
+.colonnes {
+  margin-top: 25vh;
+  width: 100%;
+}
+
+.todo {
+  background-color: white;
+  height: 550px;
+  width: 20%;
+  border: 2px solid rgb(108, 114, 122);
+  border-radius: 2%;
+}
+
+.doing {
+  background-color: white;
+  height: 550px;
+  width: 20%;
+  border: 2px solid rgb(108, 114, 122);
+  border-radius: 2%;
+}
+
+.done {
+  background-color: white;
+  height: 550px;
+  width: 20%;
+  border: 2px solid rgb(108, 114, 122);
+  border-radius: 2%;
+}
+
+.test_2 {
+  position: relative;
+  width: 90%;
+  height: 10vh;
+  left: 5%;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.p-text-2 {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  transform: translate(-3%, -50%);
+}
+
+.supprm-2 {
+  position: absolute;
+  left: 65%;
+  top: 50%;
+}
+
+.modif-2 {
+  position: absolute;
+  left: 75%;
+  top: 50%;
+}
+
+.drop-btn {
+  position: absolute;
+  left: 85%;
+  top: 25%;
 }
 
 /*# sourceMappingURL=app.css.map */
