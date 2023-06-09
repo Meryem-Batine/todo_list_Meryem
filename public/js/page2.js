@@ -16,7 +16,7 @@ for (let index = 0; index < btn_2.length; index++) {
     <p class="p-text-2">${value_2}</p>
     <i class="fa-solid fa-pen fa-lg modif-2" style="color: #005cfa;"></i>
     <i class="fa-solid fa-xmark fa-xl supprm-2" style="color: #f01000;"></i>
-    <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split drop-btn" data-bs-toggle="dropdown" aria-expanded="false">
+    <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split drop-btn" data-bs-toggle="dropdown" aria-expanded="false" onclick="show()">
     <span class="visually-hidden">Toggle Dropend</span>
     </button>
     </div>`
@@ -49,4 +49,10 @@ todo_box.addEventListener("click",(element)=>{
 });
 
 //* select
-
+// for (let index = 0; index < drop-btn.length; index++) {
+//     let element = drop-btn[index];
+    function show() {
+            document.querySelector(".test-2").style.display="block";
+        }
+    
+// }

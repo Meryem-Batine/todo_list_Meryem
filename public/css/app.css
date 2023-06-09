@@ -11891,6 +11891,8 @@ li:hover {
 
 body {
   background-color: lightsteelblue;
+  background-image: url(../img/cd4a096b2096ebb4f460c171cf0f913e.jpg);
+  background-repeat: no-repeat;
 }
 
 .div-parent {
@@ -11914,6 +11916,7 @@ body {
   display: block;
   border: 2px solid black;
   border-radius: 2%;
+  box-shadow: 5px 10px 8px #020202;
 }
 
 .form-select {
@@ -11969,6 +11972,7 @@ body {
   width: 20%;
   border: 2px solid rgb(108, 114, 122);
   border-radius: 2%;
+  box-shadow: 5px 10px 8px #020202;
 }
 
 .doing {
@@ -11977,6 +11981,7 @@ body {
   width: 20%;
   border: 2px solid rgb(108, 114, 122);
   border-radius: 2%;
+  box-shadow: 5px 10px 8px #020202;
 }
 
 .done {
@@ -11985,6 +11990,7 @@ body {
   width: 20%;
   border: 2px solid rgb(108, 114, 122);
   border-radius: 2%;
+  box-shadow: 5px 10px 8px #020202;
 }
 
 .test_2 {

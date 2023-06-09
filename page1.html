@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page 1</title>
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
 
@@ -22,10 +22,10 @@
             </div>
         </div>
         <!--* select -->
-        <select class="form-select w-50" id="select" aria-label="Default select example" onchange="toggleDiv(this.value)">
-            <option value=""  id="all-select">Les éléments</option>
-            <option value="1" id="select1">Éléments validés</option>
-            <option value="2" id="select2">Éléments non validés</option>
+        <select class="form-select w-50" id="select" aria-label="Default select example">
+            <option value="all"  id="all-select">Les éléments</option>
+            <option value="1" id="select1" class="valider" >Éléments validés</option>
+            <option value="2" id="select2" class="invld">Éléments non validés</option>
         </select>
     </div>
     <!--* la boite -->
