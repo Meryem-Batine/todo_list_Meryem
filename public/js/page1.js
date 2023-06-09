@@ -3,7 +3,6 @@ let text_input = document.querySelector("#input-text");
 let add_btn = document.querySelectorAll("#btn-ajouter");
 let box = document.querySelector(".boite");
 let select = document.querySelectorAll("#select");
-let all_select = document.querySelector("#all-select");
 let select_1 = document.querySelector("#select1");
 let select_2 = document.querySelector("#select2");
 let all_text = [];
@@ -42,7 +41,6 @@ box.addEventListener("click",(element)=>{
     {
     let parent =element.target.parentElement;
     parent.remove();
-    all_element.push(parent);
     }
     //! pour modifier
     if(element.target.classList.contains("modif"))
@@ -57,22 +55,76 @@ box.addEventListener("click",(element)=>{
             }
     }
 });
-console.log(vrf_element);
 console.log(all_element);
+console.log(vrf_element);
+
 
 //* select
-function addselect() {
-    let slct=document.querySelector("#select");
-    let slct_value=slct.value;
-    let selectElement=[];
-    if (slct ==="1") {
-        for (let index = 0; index < all_element.length; index++) {
-            let element = all_element[index];
-            selectElement.push(element);
+// function addselect() {
+//     let slct=document.querySelector("#select");
+//     let slct_value=slct.value;
+//     let selectElement=[];
+//     if (slct ==="1") {
+//         for (let index = 0; index < all_element.length; index++) {
+//             let element = all_element[index];
+//             selectElement.push(element);
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+function toggleDiv(value) {
+    let boxx=document.getElementsByClassName("test");
+    for (let index = 0; index < all_element.length; index++) {
+        let element = all_element[index];
+        if (value == "") {
+            alert("gooooo");
+        }else if (value == 2) {
+            boxx.style.display = value == 2 ? "none" : "none";
+            
         }
     }
+
+
+    // boxx.style.display = value == 1 ? "block" : "none";
+
+    // // vrf_element.push(boxx)
+    // boxx.style.display = value == 2 ? "block" : "none";
+
 }
 
+
+// function selected() {
+//     let selectvalue=select.value;
+//     let elementSelect =[];
+//     if (selectvalue == "") {
+//         for (let index = 0; index < all_element.length; index++) {
+//             let element = all_element[index];
+//             if (element.completed ==true) {
+//                 elementSelect.push(element)
+//             }
+//         }
+//     }else if (selectvalue == 2) {
+//         for (let index = 0; index < all_element.length; index++) {
+//             let element = all_element[index];
+//             if (element.completed ==false) {
+//                 elementSelect.push(element)
+//             }
+//         }
+//     }else{
+//         elementSelect =all_elementelement;
+//     }
+// }
+// select.addEventListener("onclick",selected);
 
 
 

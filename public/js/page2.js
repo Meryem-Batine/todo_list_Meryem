@@ -1,6 +1,7 @@
 let input_2 = document.querySelector("#input-text-p2");
 let btn_2 = document.querySelectorAll("#btn-ajouter-p2");
 let todo_box = document.querySelector(".todo");
+let colonnes =document.querySelectorAll("#colonnes");
 let all_text_input = [];
 console.log(btn_2);
 // * creer paraghraphe
@@ -18,9 +19,6 @@ for (let index = 0; index < btn_2.length; index++) {
     <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split drop-btn" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="visually-hidden">Toggle Dropend</span>
     </button>
-    <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">2</a></li>
-        <li><a class="dropdown-item" href="#">3</a></li>
     </div>`
         todo_box.appendChild(div)
     }
@@ -30,14 +28,14 @@ for (let index = 0; index < btn_2.length; index++) {
 //* function icons et select
 todo_box.addEventListener("click",(element)=>{
         //! pour supprimer
-    if(element.target.classList.contains("supprm"))
+    if(element.target.classList.contains("supprm-2"))
     {
     let content =element.target.parentElement;
     content.remove();
     all_text_input.push(content);
     }
     //! pour modifier
-    if(element.target.classList.contains("modif"))
+    if(element.target.classList.contains("modif-2"))
     {
     let para_p2 =element.target.previousElementSibling;
             let ask =confirm(`do you want to change this text`);
@@ -49,3 +47,6 @@ todo_box.addEventListener("click",(element)=>{
             }
     }
 });
+
+//* select
+

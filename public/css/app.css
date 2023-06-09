@@ -11885,7 +11885,7 @@ li a {
 }
 
 li:hover {
-  background-color: #9ac0e2;
+  background-color: #86aaca;
   border-radius: 20PX;
 }
 
@@ -11912,7 +11912,7 @@ body {
   top: 55%;
   transform: translate(-50%, -50%);
   display: block;
-  border: 2px solid rgb(108, 114, 122);
+  border: 2px solid black;
   border-radius: 2%;
 }
 

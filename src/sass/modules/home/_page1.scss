@@ -1,9 +1,8 @@
 
 body{
     background-color: lightsteelblue;
-    // background-image:url(../img/river-mountain-scenery-wallpaper-1440x900_4.jpg);
-    // background-image: url(../../../../public/img/);
-
+    // background-image:url(../img/cd4a096b2096ebb4f460c171cf0f913e.jpg);
+    // background-repeat: no-repeat;
 }
 .div-parent{
     left: 50%;
@@ -22,9 +21,9 @@ body{
     top: 55%;
     transform: translate(-50% , -50%);
     display: block;
-    border: 2px solid rgb(108, 114, 122);
+    border: 2px solid black;
     border-radius: 2%;
-    // box-shadow: 5px 10px 8px #888888;
+    // box-shadow: 5px 10px 8px #020202;
 
 }
 .form-select{
